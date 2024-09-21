@@ -1,3 +1,5 @@
+ĐÓNG VAI TRÒ: TẠO DỰ ÁN
+
 1. tạo repository remote trên github 
 2. tạo repository local(trên máy tính)
     2.1 git init: khởi tạo repo local
@@ -22,3 +24,35 @@
 
     từ lần 2 trở đi: 
     git push 
+
+ĐÓNG VAI TRÒ: THAM GIA VÀO 1 DỰ ÁN 
+1. accept lời mời
+2. kéo repo của dự án về
+    git clone "url repo"
+
+3. kéo những thay đổi của repo remote về 
+    git pull
+
+
+    branch/production
+    branch/release
+    branch/hotfix
+    branch/dev1
+    branch/dev2
+
+/*****************************/
+1. tạo branch 
+    git branch "tenbranch"
+
+2. chuyển branch
+    git checkout "tenbranch"
+
+    git checkout -b "tenbranch"
+
+3. kéo code mới từ branch khác về 
+    git pull origin "tenbranch"
+
+Bài tập:
+1. tạo và checkout qua branch mới
+2. thay đổi code và push lên branch mới 
+3. tạo pull request(PR) và merge
