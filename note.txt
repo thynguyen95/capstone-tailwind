@@ -1,0 +1,11 @@
+1. tạo repository remote trên github 
+2. tạo repository local(trên máy tính)
+    2.1 git init: khởi tạo repo local
+3. kết nối 2 repo lại
+    git remote add origin "url repo remote trên github"
+
+4. Đẩy file từ local lên remote
+4.1 khai báo những file cần đẩy lên
+    git add "tenFile" ------- git add index.html
+    git add . ----------- khai báo tất cả các file cần đẩy lên 
+    git add -A(-all) -------- khai báo chỉ đẩy những file có thay đổi
